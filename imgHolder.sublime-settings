@@ -1,0 +1,20 @@
+{
+	/**
+	 * InputMask:
+	 * [width]x[height]/[background-color]/[text-color]&text=[some+text]&font=[font-name]
+	 *
+	 *
+	 * Aviable font names:
+	 * - arial
+	 * - tahoma
+	 * - kelson
+	 * - gtw
+	 *
+	 */
+	"imgholders": [
+    	"300",
+    	"200&font=gtw",
+    	"450x300/34495e/8e44ad&text=hello+world&font=kelson",
+    	"468x60/444&text=Привет!",
+    ]
+}

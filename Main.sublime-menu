@@ -1,0 +1,60 @@
+[
+	{
+		"caption": "Preferences",
+		"mnemonic": "n",
+		"id": "preferences",
+		"children":
+		[
+			{
+				"caption": "Package Settings",
+				"mnemonic": "P",
+				"id": "package-settings",
+				"children":
+				[
+					{
+						"caption": "Image Holder",
+						"children":
+						[
+							{
+								"command": "open_file",
+								"args": { "file": "${packages}/imgHolder/README.md" },
+								"caption": "README"
+							},
+							{ "caption": "-" },
+							{
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/imgHolder/imgHolder.sublime-settings",
+									"platform": "OSX"
+								},
+								"caption": "Settings – Default"
+							},
+							{
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/imgHolder/imgHolder.sublime-settings",
+									"platform": "Linux"
+								},
+								"caption": "Settings – Default"
+							},
+							{
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/imgHolder/imgHolder.sublime-settings",
+									"platform": "Windows"
+								},
+								"caption": "Settings – Default"
+							},
+							{
+								"command": "open_file",
+								"args": {"file": "${packages}/User/imgHolder.sublime-settings"},
+								"caption": "Settings – User"
+							},							
+							{ "caption": "-" }
+						]
+					}
+				]
+			}
+		]
+	}
+]
