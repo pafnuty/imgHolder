@@ -2,7 +2,7 @@ SublimeImgHolder
 =================
 Plugin for SublimeText 2 and 3
 
-Allows you to easily insert a link to a picture-placeholder from img.base64-image.ru into html, css, less and sass files.
+Allows you to easily insert a link to a picture-placeholder from img.base64-image.ru into html, css, less, sass and scss files.
 
 
 Usage
