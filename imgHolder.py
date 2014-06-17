@@ -17,7 +17,7 @@ class imgHolder(sublime_plugin.EventListener):
 
         attr = pos(5)
 
-        for s in (u'html', u'css', u'less', u'sass'):
+        for s in (u'html', u'css', u'less', u'sass', u'scss'):
             if syntax.lower().find(s):
                 if attr.find('src=') != -1 or attr.find('url(') != -1:
                     showCompletions = [(url_prefix + ih, url_prefix + ih) for ih in imgholders]
