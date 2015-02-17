@@ -1,23 +1,34 @@
-SublimeImgHolder
-=================
+# ImgHolder
+
 Plugin for SublimeText 2 and 3
 
-Allows you to easily insert a link to a picture-placeholder from img.base64-image.ru into html, css, less and sass files.
+Allows you to easily insert a link to a picture-placeholder from http://imgholder.ru/ into html, css, less and sass syntax, with custom size, text & font.
 
 
-Usage
-=================
-Trigger autocomplete just after **src=** or **url(** attributes and select the desired string.
+## Usage
 
-Settings
-=================
+Trigger autocomplete just after **src="** or **url(** attributes and select the desired string.
 
-InputMask:
-[width]x[height]/[background-color]/[text-color]&text=[some+text]&font=[font-name]
+## Settings
 
-Aviable font names:
+###InputMask:
+`[width]x[height]/[background-color]/[text-color][.ext]&text=[some+text]&font=[font-name]`
+
+###For example
+http://imgholder.ru/150
+http://imgholder.ru/600x300
+http://imgholder.ru/600x300/444
+http://imgholder.ru/600x300/444/ссс
+http://imgholder.ru/600x300/444/ссс.jpg
+http://imgholder.ru/600x300/444/ссс.jpg&text=привет+как+дела
+http://imgholder.ru/600x300/444/ссс.jpg&text=привет+как+дела&font=bebas
+https://imgholder.ru/600x300/444/ссс.jpg&text=привет+как+дела&font=bebas
+
+
+### Available font names:
+- roboto (default)
 - arial
 - tahoma
 - kelson
 - gtw
-
+- bebas

@@ -1,0 +1,11 @@
+# ImgHolder Changelog
+
+Your ImgHolder plugin is updated. Enjoy new version. For any type of feedback you can use https://github.com/pafnuty/imgHolder/issues.
+
+## New Features
+- New site http://imgholder.ru/ with convenient generator of images.
+- Added https.
+- Added extensions for images (png, jpg, gif)
+- Added the correct headers. If the image has already been downloaded previously will be given to the 304 status.
+- Added new nice fonts (Roboto and Bebas).
+- Added full example in snippet. tabTrigger: `imho` or `imgholder`.

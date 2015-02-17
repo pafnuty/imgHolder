@@ -1,20 +1,26 @@
 {
 	/**
 	 * InputMask:
-	 * [width]x[height]/[background-color]/[text-color]&text=[some+text]&font=[font-name]
+	 * [width]x[height]/[background-color]/[text-color][.ext]&text=[some+text]&font=[font-name]
 	 *
 	 *
 	 * Aviable font names:
+	 * - roboto (default)
 	 * - arial
 	 * - tahoma
 	 * - kelson
 	 * - gtw
+	 * - bebas
+	 *
+	 * Available extensions: 
+	 * - .png
+	 * - .jpg
+	 * - .gif
 	 *
 	 */
 	"imgholders": [
     	"300",
     	"200&font=gtw",
-    	"450x300/34495e/8e44ad&text=hello+world&font=kelson",
-    	"468x60/444&text=Привет!",
+    	"600x300/2196F3/ECEFF1.jpg&text=imgHolder&font=bebas"
     ]
 }

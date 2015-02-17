@@ -12,7 +12,7 @@ class imgHolder(sublime_plugin.EventListener):
             return view.substr(sublime.Region(point - pos, point))
 
 
-        url_prefix = 'http://img.base64-image.ru/'
+        url_prefix = 'http://imgholder.ru/'
         showCompletions = []
 
         attr = pos(5)
