@@ -25,13 +25,13 @@ Trigger autocomplete just after **src="** or **url(** attributes and select the 
 `[width]x[height]/[background-color]/[text-color][.ext]&text=[some+text]&font=[font-name]`
 
 ###For example
-//imgholder.ru/150
-//imgholder.ru/600x300
-//imgholder.ru/600x300/444
-//imgholder.ru/600x300/444/ссс
-//imgholder.ru/600x300/444/ссс.jpg
-//imgholder.ru/600x300/444/ссс.jpg&text=привет+как+дела
-//imgholder.ru/600x300/444/ссс.jpg&text=привет+как+дела&font=bebas
+[//imgholder.ru/150](https:////imgholder.ru/150)
+[//imgholder.ru/600x300](https:////imgholder.ru/600x300)
+[//imgholder.ru/600x300/444](https:////imgholder.ru/600x300/444)
+[//imgholder.ru/600x300/444/ссс](https:////imgholder.ru/600x300/444/ссс)
+[//imgholder.ru/600x300/444/ссс.jpg](https:////imgholder.ru/600x300/444/ссс.jpg)
+[//imgholder.ru/600x300/444/ссс.jpg&text=привет+как+дела](https:////imgholder.ru/600x300/444/ссс.jpg&text=привет+как+дела)
+[//imgholder.ru/600x300/444/ссс.jpg&text=привет+как+дела&font=bebas](https:////imgholder.ru/600x300/444/ссс.jpg&text=привет+как+дела&font=bebas)
 
 
 ### Available font names:
@@ -41,6 +41,10 @@ Trigger autocomplete just after **src="** or **url(** attributes and select the 
 - kelson
 - gtw
 - bebas
+- robotoslab
+- ptserif
+- bitter
+- corki
 
 ### Available extensions: 
 - .png

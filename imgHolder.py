@@ -12,7 +12,7 @@ class imgHolder(sublime_plugin.EventListener):
             return view.substr(sublime.Region(point - pos, point))
 
 
-        url_prefix = 'http://imgholder.ru/'
+        url_prefix = 'https://imgholder.ru/'
         showCompletions = []
 
         attr = pos(5)
