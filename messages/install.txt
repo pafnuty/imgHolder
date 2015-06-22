@@ -2,7 +2,7 @@
 
 Plugin for SublimeText 2 and 3
 
-Allows you to easily insert a link to a picture-placeholder from http://imgholder.ru/ into html, css, less and sass syntax, with custom size, text & font.
+Allows you to easily insert a link to a picture-placeholder from http://imgholder.ru/ into html, css, less, sass and scss syntax, with custom size, text & font.
 
 
 ## Usage
@@ -32,3 +32,12 @@ https://imgholder.ru/600x300/444/ссс.jpg&text=привет+как+дела&fo
 - kelson
 - gtw
 - bebas
+- robotoslab
+- ptserif
+- bitter
+- corki
+
+### Available extensions: 
+- .png
+- .jpg
+- .gif
