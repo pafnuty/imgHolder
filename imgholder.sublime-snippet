@@ -1,6 +1,6 @@
 <snippet>
-	<content><![CDATA[http${1:s}://imgholder.ru/${2:600}${3:x${4:300}}${5:/${6:2196F3}/${7:ECEFF1}${8:.jpg}&text=${9:imgHolder}&font=${10:bebas}}${0}]]></content>
+	<content><![CDATA[https://imgholder.ru/${1:600}${2:x${3:300}}${4:/${5:2196F3}/${6:ECEFF1}${7:.jpg}&text=${8:imgHolder}&font=${9:bebas}&fz=${10:36}}${0}]]></content>
 	<tabTrigger>imho, imgholder</tabTrigger>
 	<description>ImgHolder image add</description>
-	<!-- <scope>text.html,text.css,text.css.less,text.sass</scope> -->
+	<!-- <scope>text.html,text.css,text.css.less,text.sass,text.markdown</scope> -->
 </snippet>
