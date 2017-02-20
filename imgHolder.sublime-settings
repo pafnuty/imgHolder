@@ -1,20 +1,25 @@
 {
 	/**
 	 * InputMask:
-	 * [width]x[height]/[background-color]/[text-color][.ext]&text=[some+text]&font=[font-name]
+	 * [width]x[height]/[background-color]/[text-color][.ext]&text=[some+text]&font=[font-name]&fz=26
 	 *
 	 *
 	 * Aviable font names:
 	 * - roboto (default)
 	 * - arial
-	 * - tahoma
-	 * - kelson
-	 * - gtw
 	 * - bebas
-	 * - robotoslab
-	 * - ptserif
 	 * - bitter
 	 * - corki
+	 * - debby
+	 * - ffl
+	 * - gtw
+	 * - kelson
+	 * - matias
+	 * - ptsans
+	 * - ptsansi
+	 * - ptserif
+	 * - robotoslab
+	 * - tahoma
 	 * 
 	 *
 	 * Available extensions: 
@@ -26,6 +31,7 @@
 	"imgholders": [
     	"300",
     	"200&font=gtw",
-    	"600x300/2196F3/ECEFF1.jpg&text=imgHolder&font=bebas"
+    	"600x300/2196F3/ECEFF1.jpg&text=imgHolder&font=bebas",
+    	"600x150/457b9d/f1faee&text=image+with/nmultiline+text&font=matias&fz=26"
     ]
 }

@@ -1,0 +1,8 @@
+# ImgHolder Changelog
+
+Your ImgHolder plugin is updated. Enjoy new version. For any type of feedback you can use https://github.com/pafnuty/imgHolder/issues.
+
+## New Features
+- Added **STYLUS** and **MARKDOWN** files capability
+- Added completions for **poster** and **srcset** aatributes
+- Small code improvements
